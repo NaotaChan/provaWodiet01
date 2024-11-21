@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 227 58">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #53cc69;
+        filter: url(#outer-glow-2);
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-3 {
+        font-family: NunitoSans-Regular, 'Nunito Sans';
+        font-size: 14px;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+    </style>
+    <filter id="outer-glow-2" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur result="blur" stdDeviation="5"/>
+      <feFlood flood-color="#53cc69" flood-opacity="1"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect class="cls-1" x="11" y="11" width="205" height="36" rx="18" ry="18"/>
+  <text class="cls-3" transform="translate(93.35 33.15)"><tspan class="cls-2" x="0" y="0">A</tspan><tspan class="cls-5" x="9.86" y="0">v</tspan><tspan class="cls-4" x="16.93" y="0">anti</tspan></text>
+</svg>
